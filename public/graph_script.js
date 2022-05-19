@@ -157,7 +157,7 @@ function createGraph(data, which) {
 
 }
 
-fetch('./sleep-2022-04-28.json').then(r => r.json()).then(data => {
+fetch('./sleep-2022-01-28.json').then(r => r.json()).then(data => {
     for (let i = 0; i < data.length; i++) {
         createGraph(data[i], i);
     }
